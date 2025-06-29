@@ -258,3 +258,19 @@ section, header {
 }
 
 >>>>>>> d9a36f3ed37dd0a336f441714117a38ba00bec97
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* LinkedIn blue or change as per icon */
+  transform: scale(1.2);
+}
